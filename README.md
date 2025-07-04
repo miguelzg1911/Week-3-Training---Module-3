@@ -46,21 +46,23 @@ npm install
 
 This will install the required packages including node-fetch.
 
-2. Start the JSON Server API
+### 2. Start the JSON Server API
 
 Run this command to launch the API server, which serves data from db.json:
 
 npx json-server --watch db.json --port 3000
 
 You should see output indicating the server is running at http://localhost:3000.
-3. Running the CLI application
+
+### 3. Running the CLI application
 
 Open a new terminal (keeping JSON Server running), and execute:
 
 node gestion_api.js
 
 Follow the interactive menu to list, create, update, or delete products.
-4. Using the Web Frontend
+
+### 4. Using the Web Frontend
 
 Open index.html in your browser (you can simply open the file or serve it with a simple HTTP server).
 
