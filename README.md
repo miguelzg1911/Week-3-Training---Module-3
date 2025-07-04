@@ -1,6 +1,6 @@
 # Week-3-Training---Module-3
 
-# Product Management CLI and Web App
+# Product Management
 
 This project is a product management tool that includes:
 
@@ -41,10 +41,11 @@ Entrenamiento.Semana3-Modulo3/
 
 From inside the project root `Entrenamiento.Semana3-Modulo3`, run:
 
-```bash
+``bash
 npm install
 
 This will install the required packages including node-fetch.
+
 2. Start the JSON Server API
 
 Run this command to launch the API server, which serves data from db.json:
