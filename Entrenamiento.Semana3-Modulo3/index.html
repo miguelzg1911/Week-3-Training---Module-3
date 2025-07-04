@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Product Management</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <main>
+    <h1>Product Management</h1>
+
+    <form id="productForm">
+      <label for="idUpdate">ID:</label><br/>
+      <input type="text" id="idUpdate"/><br/><br/>
+
+      <label for="name">Name:</label><br/>
+      <input type="text" id="name"/><br/><br/>
+
+      <label for="price">Price:</label><br/>
+      <input type="number" id="price"/><br/><br/>
+
+      <div class="boton">
+        <button id="add">Add Product</button>
+        <button id="updateProduct">Update Product</button>
+        <button id="show">Show Products</button>
+
+        <label for="idDelete">ID (to delete):</label>
+        <input type="text" id="idDelete"/>
+
+        <button id="delete">Delete Product</button>
+
+        <div id="message" class="message"></div>
+      </div>
+    </form>
+
+    <ul id="productList"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
